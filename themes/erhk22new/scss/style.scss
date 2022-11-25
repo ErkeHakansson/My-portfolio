@@ -34,7 +34,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
@@ -46,7 +51,11 @@ img {
     margin-right: auto;
 }
 
-p, td, th, li, dd {
+p,
+td,
+th,
+li,
+dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -72,7 +81,8 @@ p, td, th, li, dd {
     padding: 0;
 }
 
-ol, ul {
+ol,
+ul {
     padding-left: 1.5em;
 }
 
@@ -80,6 +90,7 @@ ol, ul {
     display: none !important;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
