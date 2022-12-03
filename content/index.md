@@ -5,7 +5,7 @@ Description: This is our index page.
 
 Home page
 ==========================
-<img src= "%base_url%/assets/img/IMG_5875.jpg" alt="Bild på mig">
+<img src= "%base_url%/image/IMG_5875.jpg" alt="Bild på mig">
 
 Hej
 
