@@ -8,8 +8,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass erhk22new/scss/style.scss erhk22new/css/style.css --no-source-map",
-    "style-min": "sass erhk22new/scss/style.scss erhk22new/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass erhk22new/scss/style.scss:erhk22new/css/style.css erhk22new/scss/style-dark.scss:erhk22new/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass erhk22new/scss/style.scss:erhk22new/css/style.min.css erhk22new/scss/style-dark.scss:erhk22new/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass erhk22new/scss/style-dark.scss erhk22new/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass erhk22new/scss/style-dark.scss erhk22new/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass erhk22new/scss/style.scss erhk22new/css/style.css --no-source-map",
+    "style-light-min": "sass erhk22new/scss/style.scss erhk22new/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

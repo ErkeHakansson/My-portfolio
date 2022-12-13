@@ -1,0 +1,98 @@
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+@import '../../node_modules/normalize.css/normalize';
+
+@import 'variables-dark';
+@import 'blockquotes';
+@import 'code-dark';
+@import 'mobile-nav-dark';
+@import 'header';
+@import 'footer';
+@import 'placement';
+@import 'title-dark';
+@import 'courses';
+@import 'technologies-dark';
+@import 'technology-dark';
+
+body {
+    background-color: $background-color;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+* {
+    color: $font-color;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.main {
+    p {
+        line-height: 45px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    h1 {
+        padding-top: 50px;
+    }
+}
+
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html,
+body {
+    height: 100%;
+}
